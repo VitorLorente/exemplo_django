@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+{% block body %}
+            <div class="forms_add">
+                <div class="form-group">
+                    <label for="nome_add" class="label-style">Nome: </label><br><br>
+                    <input type="text" class="form-control form-style" id="nome_add" placeholder="Digite o nome..."/>
+                </div>
+                <div class="form-group">
+                    <label for="sobrenome_add" class="label-style">Sobrenome: </label><br><br>
+                    <input type="text" class="form-control form-style" id="sobrenome_add" placeholder="Digite o sobrenome..."/>
+                </div>
+                <div class="form-group">
+                    <label for="email_add" class="label-style">E-mail: </label><br><br>
+                    <input type="e-mail" class="form-control form-style" id="email_add" placeholder="user@example.com"/>
+                </div>
+                <div class="form-group">
+                    <label for="fixo_add" class="label-style">Telefone fixo: </label><br><br>
+                    <input type="tel" class="form-control form-style" id="fixo_add" placeholder="(xx)0000-0000"/>
+                </div>
+                <div class="form-group">
+                    <label for="cel_add" class="label-style">Celular: </label><br><br>
+                    <input type="tel" class="form-control form-style" id="fixo_add" placeholder="(xx)0000-0000"/>
+                </div>
+                <textarea class="form-control ta-style"></textarea>
+            </div>
+{% endblock %}
